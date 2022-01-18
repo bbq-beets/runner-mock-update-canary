@@ -8,4 +8,5 @@ jobs:
     runs-on: [self-hosted, macos]
     steps:
       - name: Run a one-line script
+        timeout-minutes: 1
         run: echo Hello, world!
