@@ -5,7 +5,7 @@ on:
   [workflow_dispatch, workflow_call]
 jobs:
   build:
-    runs-on: [self-hosted, ubuntu]
+    runs-on: [self-hosted, linux]
     steps:
       - name: Run a one-line script
         run: echo Hello, world!
