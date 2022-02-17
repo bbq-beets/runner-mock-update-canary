@@ -1,11 +1,11 @@
 # This is a basic workflow to help you get started with Actions
 
-name: runner-mock-update-canary-linux
+name: runner-double-update-macos-service
 on:
   [workflow_dispatch, workflow_call]
 jobs:
   build:
-    runs-on: [self-hosted, linux-latest]
+    runs-on: [self-hosted, macos-latest]
     steps:
       - name: Run a one-line script
         timeout-minutes: 1
