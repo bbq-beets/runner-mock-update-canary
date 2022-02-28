@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: runner-mock-update-canary-macos
+name: runner-macos
 on:
   [workflow_dispatch, workflow_call]
 jobs:

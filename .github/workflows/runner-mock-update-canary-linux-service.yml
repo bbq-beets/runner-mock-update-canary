@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: runner-double-update-linux-service
+name: runner-linux-service
 on:
   [workflow_dispatch, workflow_call]
 jobs:
