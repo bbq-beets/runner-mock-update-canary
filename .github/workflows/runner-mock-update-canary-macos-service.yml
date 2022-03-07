@@ -5,7 +5,7 @@ on:
   [workflow_dispatch, workflow_call]
 jobs:
   build:
-    runs-on: [self-hosted, macos-latest]
+    runs-on: [self-hosted, macos-latest, service]
     steps:
       - name: Run a one-line script
         timeout-minutes: 1
